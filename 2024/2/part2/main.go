@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"os"
-	"slices"
 	"strconv"
 	"strings"
 
@@ -82,21 +81,20 @@ func main() {
 			arr = append(arr, num)
 		}
 
-		// ok - i have an array.
-		// I want to drop
 		c := append([]int(nil), arr...)
 
 		index := 0
 		for {
-			if index == len(c) {
+			if index == len(arr) {
 				break
 			}
+			spew.Dump("test", c)
 			if fits(c) {
 				numValid += 1
-				spew.Dump("SAFE", arr, c)
+				spew.Dump("SAFE", c)
 				break
 			} else {
-				c = slices.Delete(arr, index, index+1)
+				c = append(arr[:index], arr[index+1:]...)
 				index += 1
 			}
 		}
