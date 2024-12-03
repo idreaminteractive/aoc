@@ -55,6 +55,23 @@ func fits(arr []int) bool {
 	return true
 }
 
+func createInputArrs(input []int) [][]int {
+	oot := make([][]int, 0)
+	oot = append(oot, input)
+	for i := 0; i < len(input); i++ {
+		c := make([]int, 0)
+		c = append(c, input[:i]...)
+		if i+1 < len(input) {
+			c = append(c, input[i+1:]...)
+		}
+
+		oot = append(oot, c)
+
+	}
+	return oot
+
+}
+
 func main() {
 	argsWithoutProg := os.Args[1:]
 	if len(argsWithoutProg) == 0 {
@@ -81,22 +98,12 @@ func main() {
 			arr = append(arr, num)
 		}
 
-		c := append([]int(nil), arr...)
-		index := 0
-		for {
-			if index == len(arr) {
-				break
-			}
-			spew.Dump("test", c)
-			if fits(c) {
+		inputsToTest := createInputArrs(arr)
+		for _, subArr := range inputsToTest {
+			valid := fits(subArr)
+			if valid {
 				numValid += 1
-				spew.Dump("SAFE", c)
 				break
-			} else {
-				// wipe it
-				c = []int(nil)
-				c = append(arr[:index], arr[index+1:]...)
-				index += 1
 			}
 		}
 
