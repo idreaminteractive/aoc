@@ -3,8 +3,6 @@ package main
 import (
 	"log"
 	"os"
-
-	"github.com/davecgh/go-spew/spew"
 )
 
 func main() {
@@ -19,13 +17,14 @@ func main() {
 	}
 	data := string(f)
 
-	// create our finite state machine
-	var state rune = 'm'
+	on := true
+	i := 0
+	for {
 
-	for _, r := range data {
-		if r == state {
-			spew.Dump("FOUND", r)
+		if on {
+			// we're looking for mul( x, y )
 		}
+
 	}
 
 }
