@@ -82,7 +82,6 @@ func main() {
 		}
 
 		c := append([]int(nil), arr...)
-
 		index := 0
 		for {
 			if index == len(arr) {
@@ -94,6 +93,8 @@ func main() {
 				spew.Dump("SAFE", c)
 				break
 			} else {
+				// wipe it
+				c = []int(nil)
 				c = append(arr[:index], arr[index+1:]...)
 				index += 1
 			}
