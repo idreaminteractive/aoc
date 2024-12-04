@@ -43,37 +43,13 @@ func main() {
 				// test it.
 				startPoint := [2]int{row, col}
 				if (getNorthEast(startPoint, inputData) == "M" && getSouthWest(startPoint, inputData) == "S") || (getNorthEast(startPoint, inputData) == "S" && getSouthWest(startPoint, inputData) == "M") {
-					if (getNorthEast(startPoint, inputData) == "M" && getSouthWest(startPoint, inputData) == "S") || (getNorthEast(startPoint, inputData) == "S" && getSouthWest(startPoint, inputData) == "M") {
+					if (getNorthWest(startPoint, inputData) == "M" && getSouthEast(startPoint, inputData) == "S") || (getNorthWest(startPoint, inputData) == "S" && getSouthEast(startPoint, inputData) == "M") {
 						// left off here.
 						numFound += 1
 					}
 
 				}
 
-			}
-			if hasNorth([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasNorthWest([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasWest([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasSouthWest([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasSouth([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasSouthEast([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasEast([2]int{row, col}, inputData) {
-				numFound += 1
-			}
-			if hasNorthEast([2]int{row, col}, inputData) {
-				numFound += 1
 			}
 		}
 	}
