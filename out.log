@@ -1,0 +1,74 @@
+Guard Pos: [6 4], NextPos: [5 4],  Has Right Obstacle? false
+Guard Pos: [5 4], NextPos: [4 4],  Has Right Obstacle? false
+Guard Pos: [4 4], NextPos: [3 4],  Has Right Obstacle? false
+Guard Pos: [3 4], NextPos: [2 4],  Has Right Obstacle? false
+Guard Pos: [2 4], NextPos: [1 4],  Has Right Obstacle? false
+Guard Pos: [1 4], NextPos: [0 4],  Has Right Obstacle? false
+Guard Pos: [1 4], NextPos: [1 5],  Has Right Obstacle? false
+Guard Pos: [1 5], NextPos: [1 6],  Has Right Obstacle? false
+Guard Pos: [1 6], NextPos: [1 7],  Has Right Obstacle? false
+Guard Pos: [1 7], NextPos: [1 8],  Has Right Obstacle? false
+Guard Pos: [1 8], NextPos: [1 9],  Has Right Obstacle? false
+Guard Pos: [1 8], NextPos: [2 8],  Has Right Obstacle? false
+Guard Pos: [2 8], NextPos: [3 8],  Has Right Obstacle? false
+Guard Pos: [3 8], NextPos: [4 8],  Has Right Obstacle? false
+Guard Pos: [4 8], NextPos: [5 8],  Has Right Obstacle? false
+Guard Pos: [5 8], NextPos: [6 8],  Has Right Obstacle? false
+Guard Pos: [6 8], NextPos: [7 8],  Has Right Obstacle? false
+Guard Pos: [6 8], NextPos: [6 7],  Has Right Obstacle? false
+Guard Pos: [6 7], NextPos: [6 6],  Has Right Obstacle? false
+Guard Pos: [6 6], NextPos: [6 5],  Has Right Obstacle? false
+Guard Pos: [6 5], NextPos: [6 4],  Has Right Obstacle? false
+Guard Pos: [6 4], NextPos: [6 3],  Has Right Obstacle? true
+Guard Pos: [6 3], NextPos: [6 2],  Has Right Obstacle? false
+Guard Pos: [6 2], NextPos: [6 1],  Has Right Obstacle? false
+Guard Pos: [6 2], NextPos: [5 2],  Has Right Obstacle? false
+Guard Pos: [5 2], NextPos: [4 2],  Has Right Obstacle? false
+Guard Pos: [4 2], NextPos: [3 2],  Has Right Obstacle? false
+Guard Pos: [4 2], NextPos: [4 3],  Has Right Obstacle? false
+Guard Pos: [4 3], NextPos: [4 4],  Has Right Obstacle? false
+Guard Pos: [4 4], NextPos: [4 5],  Has Right Obstacle? false
+Guard Pos: [4 5], NextPos: [4 6],  Has Right Obstacle? false
+Guard Pos: [4 6], NextPos: [4 7],  Has Right Obstacle? false
+Guard Pos: [4 6], NextPos: [5 6],  Has Right Obstacle? false
+Guard Pos: [5 6], NextPos: [6 6],  Has Right Obstacle? false
+Guard Pos: [6 6], NextPos: [7 6],  Has Right Obstacle? true
+Guard Pos: [7 6], NextPos: [8 6],  Has Right Obstacle? false
+Guard Pos: [8 6], NextPos: [9 6],  Has Right Obstacle? false
+Guard Pos: [8 6], NextPos: [8 5],  Has Right Obstacle? false
+Guard Pos: [8 5], NextPos: [8 4],  Has Right Obstacle? false
+Guard Pos: [8 4], NextPos: [8 3],  Has Right Obstacle? false
+Guard Pos: [8 3], NextPos: [8 2],  Has Right Obstacle? false
+Guard Pos: [8 2], NextPos: [8 1],  Has Right Obstacle? false
+Guard Pos: [8 1], NextPos: [8 0],  Has Right Obstacle? false
+Guard Pos: [8 1], NextPos: [7 1],  Has Right Obstacle? false
+Guard Pos: [7 1], NextPos: [6 1],  Has Right Obstacle? false
+Guard Pos: [7 1], NextPos: [7 2],  Has Right Obstacle? false
+Guard Pos: [7 2], NextPos: [7 3],  Has Right Obstacle? false
+Guard Pos: [7 3], NextPos: [7 4],  Has Right Obstacle? false
+Guard Pos: [7 4], NextPos: [7 5],  Has Right Obstacle? false
+Guard Pos: [7 5], NextPos: [7 6],  Has Right Obstacle? false
+Guard Pos: [7 6], NextPos: [7 7],  Has Right Obstacle? true
+Guard Pos: [7 7], NextPos: [7 8],  Has Right Obstacle? false
+Guard Pos: [7 7], NextPos: [8 7],  Has Right Obstacle? false
+Guard Pos: [8 7], NextPos: [9 7],  Has Right Obstacle? true
+([][2]int) (len=4 cap=4) {
+ ([2]int) (len=2 cap=2) {
+  (int) 6,
+  (int) 3
+ },
+ ([2]int) (len=2 cap=2) {
+  (int) 7,
+  (int) 6
+ },
+ ([2]int) (len=2 cap=2) {
+  (int) 7,
+  (int) 7
+ },
+ ([2]int) (len=2 cap=2) {
+  (int) 9,
+  (int) 7
+ }
+}
+(int) 41
+(int) 4
