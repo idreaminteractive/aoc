@@ -1,3 +1,4 @@
+// the thing to add - if the right path has been travelled _in the same direction_. It has to check the _entire_ right path.
 package main
 
 import (
